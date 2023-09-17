@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+h1 {
+    text-align: center;
+}
+
+
+label,
+input {
+  margin-bottom: 30px;
+}
+
+#movie-list {
+  list-style: none;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-title,
+.movie-rating {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
